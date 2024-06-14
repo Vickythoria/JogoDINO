@@ -1,4 +1,8 @@
 /*LAURA*/
+#iframeDino{
+    position: absolute;
+    display: none;
+}
 
 .background{
     position: absolute;
@@ -286,7 +290,7 @@ button:hover {
     margin: 0 auto;
     position: relative;
     overflow: hidden;
-    background-image: url("");
+    background-image: url("cenarioterra.png");
     background-size: cover; /* Para garantir que a imagem cubra todo o elemento */
 }
 

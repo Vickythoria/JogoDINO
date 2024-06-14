@@ -14,6 +14,9 @@ let score = 0;
 let gameLoop;
 let scoreInterval;
 
+function iniciarJogo(){
+    document.getElementById('iframeDino').style.display = 'block';
+}
 function inicioJogo (){
     pipe.classList.add('movimento');
 }
